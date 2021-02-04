@@ -4,14 +4,14 @@ fetch('https://jsonplaceholder.typicode.com/users')
 .then(dato => dato.json())
 .then(dato => {
   dato.map(elemento => {
-    document.write(`${elemento.name}  <br>`)
+    document.write(`${elemento.name}  <br><br>`)
   })
   
 })
 
 
 //--Esta es una forma de como hacer que solo se muestre el parrafo--//
-// .then(dato => {
-//   load.style.display = 'none'
-//   console.log(dato)
-// })
+.then(dato => {
+  load.style.display = 'none'
+  console.log(dato)
+})

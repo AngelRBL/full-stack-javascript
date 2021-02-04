@@ -67,3 +67,4 @@ askajax('GET', 'https://jsonplaceholder.typicode.com/users')
   porconsola(dato)
 })
 
+
